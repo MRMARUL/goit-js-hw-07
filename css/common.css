@@ -29,6 +29,9 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
 }
+button:hover {
+  background: #6c8cff;
+}
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -36,6 +39,12 @@ h1 {
   line-height: 1.33333;
   letter-spacing: 0.04em;
   color: #2e2f42;
+}
+input:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
 }
 /*--------/\general-css/\--------*/
 #categories {
@@ -194,4 +203,10 @@ input[type="number"] {
   border-radius: 8px;
   padding: 32px;
   width: 486px;
+}
+button[data-destroy] {
+  background: #ff4e4e;
+}
+button[data-destroy]:hover {
+  background: #ff7070;
 }
